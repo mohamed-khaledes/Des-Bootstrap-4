@@ -1,0 +1,88 @@
+/*upper bar*/
+@media (max-width:576px) {
+    .upper-bar .row{
+        padding: 0;
+    }
+    .upper-bar .box-right .left-span{
+        margin: 0;
+    }
+}
+/*upper bar*/
+/*start navbar*/
+@media (min-width:576px) {
+    .navbar .container-fluid{padding: 0 60px;};
+}
+/*end navbar*/
+/*slider*/
+@media (max-width:576px) {
+    .slider .carousel-inner h1{
+        font-size: 60px;
+        padding-left:25px;
+    }
+}
+/*slider*/
+
+/*overview*/
+@media (max-width:576px) {
+    .overview .h1{
+        font-size:35px ;
+    }
+    .overview p{
+        font-size:17px ;
+    }
+}
+/*overview*/
+
+/*start featured work*/
+@media (max-width:576px) {
+    .featured-work .head .h1{
+        font-size: 35px;
+    }
+    .featured-work .head p{font-size: 17px;}
+}
+@media (max-width:768px) {
+    .featured-work ul{
+        flex-direction: column;
+    }
+}
+/*End featured work*/
+
+/*latest post*/
+@media (max-width:576px) {
+    .latest-post .head .h1{
+        font-size: 35px;
+    }
+    .latest-post .head p{font-size: 17px;}
+}
+/*End latest post*/
+
+/*testimonials*/
+@media (max-width:576px) {
+    .testimonials .carousel-caption img{
+        display: none;
+    }
+}
+/*end testimonials*/
+
+/*pricing tabel*/
+@media (max-width:576px) {
+    .pricing-table .head .h1{
+        font-size: 35px;
+    }
+    .pricing-table .head p{font-size: 17px;}
+}
+/*End pricing tabel*/
+
+/*choose us*/
+@media (max-width:576px) {
+    .choose-us .box-right{
+        padding: 50px;
+    }
+    .choose-us .box-right:last-child .h1{
+        font-size: 35px;
+    }
+    .choose-us .box-right:last-child p{
+        font-size: 17px;
+    }
+}
+/*End choose us*/
